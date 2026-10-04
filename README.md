@@ -1,3 +1,26 @@
+## Problemática
+
+En las máquinas industriales pueden presentarse fallas debido al uso constante, el desgaste de los componentes o la falta de mantenimiento. Cuando estos problemas no se detectan a tiempo pueden provocar paros inesperados, gastos de reparación y pérdida de tiempo.
+
+El mantenimiento predictivo busca utilizar información sobre el funcionamiento de los equipos para detectar señales que indiquen un posible problema antes de que ocurra una falla. Algunos datos que pueden ayudar son las horas de operación, la temperatura, la vibración y el historial de fallas de la máquina.
+
+Por esta razón, en este proyecto se busca utilizar datos de una máquina para estimar su nivel de riesgo y ayudar a identificar cuándo sería conveniente realizar una revisión.
+
+## Descripción del proyecto
+
+**Mantenimiento Inteligente** es un prototipo desarrollado en Python que permite estimar el riesgo de mantenimiento de una máquina industrial.
+
+El usuario introduce información como las horas de operación, edad de la máquina, mantenimientos realizados, temperatura, vibración y fallas previas. Con estos datos, el sistema utiliza un modelo de aprendizaje automático para clasificar el riesgo de mantenimiento como **bajo, medio o alto**.
+
+La aplicación fue desarrollada con Streamlit para facilitar el ingreso de los datos y mostrar el resultado de manera sencilla. El proyecto utiliza un dataset sintético creado por el equipo, por lo que su objetivo es académico y no sustituye una evaluación técnica realizada directamente sobre maquinaria industrial.
+
+## Fuentes
+
+- IBM. *¿Qué es el mantenimiento predictivo?*  
+  https://www.ibm.com/mx-es/think/topics/predictive-maintenance
+
+- Amazon Web Services. *What is Predictive Maintenance?*  
+  https://aws.amazon.com/what-is/predictive-maintenance/
 ## Créditos y licencias
 
 ### Librerías utilizadas
