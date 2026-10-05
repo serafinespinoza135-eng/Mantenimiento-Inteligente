@@ -70,3 +70,84 @@ Las librerías utilizadas son dependencias de código abierto y se utilizan de a
 Las licencias y condiciones de uso de las dependencias deben consultarse en sus respectivos proyectos oficiales.
 
 El código desarrollado específicamente para **Mantenimiento Inteligente** corresponde al trabajo del equipo.
+
+## Rama de IA 
+El proyecto utiliza Inteligencia Artificial mediante técnicas de Machine Learning para predecir el nivel de riesgo de mantenimiento de una máquina industrial.
+
+El modelo analiza diferentes características relacionadas con el funcionamiento y el historial de la máquina, como las horas de uso, temperatura, vibración y número de fallas previas. A partir de estos datos, el sistema determina un nivel de riesgo de mantenimiento.
+
+Los niveles de riesgo considerados por el sistema son:
+
+- BAJO: la máquina presenta condiciones        normales  y un riesgo reducido.
+- MEDIO: existen condiciones que requieren atención y seguimiento.
+- ALTO: existe un riesgo elevado y se recomienda realizar una revisión o mantenimiento.
+
+El modelo de Machine Learning se entrena utilizando un conjunto de datos de máquinas industriales y posteriormente se utiliza para realizar predicciones sobre nuevos datos.
+
+## CASO DE USO 
+
+El sistema está diseñado para apoyar el mantenimiento preventivo de máquinas industriales.
+
+Por ejemplo, un responsable de mantenimiento puede introducir información de una máquina, como:
+
+- Horas de uso. 
+- Temperatura.
+- Nivel de vibración.
+- Número de fallas previas.
+
+Con estos datos, el sistema genera una predicción del nivel de riesgo de mantenimiento.
+
+Esto permite identificar máquinas que podrían requerir atención antes de que ocurra una falla grave, ayudando a reducir tiempos de inactividad y posibles costos de reparación.
+
+## Flujo de sistema 
+
+1. Se recopilan los datos de las máquinas.
+2. Se genera o prepara el conjunto de datos.
+3. Se entrena el modelo de Machine Learning.
+4. El modelo aprende patrones relacionados con   el riesgo de mantenimiento.
+5. El usuario proporciona los datos de una máquina.
+6. El sistema procesa la información.
+7. El modelo genera una predicción.
+8. Se muestra el nivel de riesgo de mantenimiento
+
+## Requisitos 
+
+**Para ejecutar el proyecto se necesita:**
+
+- Python 3.10 a 3.13.
+- Git.
+- Las dependencias especificadas en **requirements.txt**
+
+## INSTALACIÓN 
+
+Clonar el repositorio:
+
+git clone https://github.com/serafinespinoza135-eng/Mantenimiento-Inteligente.git
+
+Entrar al proyecto:
+
+cd Mantenimiento-Inteligente
+
+Crear un entorno virtual:
+
+python -m venv .venv
+
+Activar el entorno virtual en Windows:
+
+.venv\Scripts\activate
+
+Instalar las dependencias:
+
+pip install -r requirements.txt
+
+Después de instalar las dependencias, se puede ejecutar la aplicación siguiendo las instrucciones indicadas en este README.
+
+## FUENTES
+
+- Python Software Foundation. (s. f.). *Python documentation.* https://docs.python.org/3/
+- scikit-learn developers. (s. f.). *scikit-learn: Machine Learning in Python* https://scikit-learn.org/
+- pandas development team. (s. f.). *pandas documentation.* https://pandas.pydata.org/docs/
+- NumPy developers. (s. f.). *NumPy documentation.* https://numpy.org/doc/
+- GitHub. (s. f.). *GitHub documentation.* https://docs.github.com/ 
+
+
