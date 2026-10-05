@@ -69,8 +69,6 @@ Rangos permitidos por los campos de la aplicación:
 | E-02 | Con las entradas de QA-06 (20000 / 10 / 6 / 12 / 85 / 8.0 / 4 / 4000) el modelo responde ALTO, y la hipótesis inicial era MEDIO. No es un fallo confirmado: el resultado esperado era una estimación | QA-06 | Sin corrección: se informa al desarrollador principal para que revise si el criterio del modelo es el deseado | Observación abierta, pendiente de revisión por el desarrollador |
 | E-03 | Los campos numéricos muestran el aviso "Press Enter to apply" en inglés, mientras el resto de la interfaz está en español | QA-12 | Sin corrección: es un texto propio de Streamlit | Menor, sin corregir |
 
-(Si no se encontraron errores, escribir "Sin errores encontrados" y la fecha.)
-
 ## 4. Conclusión
 
 Se ejecutaron los 15 casos de prueba. **14 pasaron** y **1 no coincidió** con lo esperado (QA-06, ver E-02). Hallazgos principales:
